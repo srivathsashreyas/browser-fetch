@@ -1,0 +1,30 @@
+{
+  "name": "browser-fetch",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srivathsashreyas/browser-fetch.git"
+  },
+  "keywords": [
+    "fetch",
+    "browser",
+    "scraping",
+    "http",
+    "chrome"
+  ],
+  "author": "Shreyas Srivathsa",
+  "license": "MIT",
+  "description": "A package which allows a user to initiate a fetch call in the browser and have it's results made available in their NodeJS program",
+  "homepage": "https://github.com/srivathsashreyas/browser-fetch",
+  "dependencies": {
+    "chrome-remote-interface": "^0.33.3"
+  },
+  "type": "module",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
